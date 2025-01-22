@@ -4,7 +4,7 @@ const SecondCounter = (props) => {
     return (
      <>
         
-         <h2> {props.seconds}</h2>
+         <h2 className='border p-4 mt-2 mx-2'>{props.seconds}</h2>
 
     </>
     ) 
